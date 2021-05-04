@@ -1,4 +1,4 @@
-FROM rust:1.50
+FROM rust:1.51
 ARG UID
 ARG GID
 RUN apt-get update && apt-get install -y build-essential libssl-dev && rm -rf /var/lib/apt/lists/*
